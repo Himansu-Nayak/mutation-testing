@@ -71,6 +71,10 @@
                     <targetTests>
                         <param>com.org.service.*</param>
                     </targetTests>
+                        
+                    <mutators>
+                        <mutator>ALL</mutator>
+                    </mutators>
                 </configuration>
             </plugin>
 
